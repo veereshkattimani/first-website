@@ -4,8 +4,5 @@ print(os.listdir('./'))
 
 
 
-try:
-    print(os.listdir('./git_tutorial'))
-except FileNotFoundError:
-    print('git_tutorial directory not found')
+print("this is newcode branch")
 
